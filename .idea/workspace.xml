@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Painter:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="057c652f-036a-485a-bfc8-7b7c175d5b58" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/work/lut/dao/ColorPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/work/lut/dao/ColorPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/work/lut/dao/MyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/work/lut/dao/MyFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/work/lut/dao/PAY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/work/lut/dao/PAY.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/work/lut/entity/MyFrameONE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/work/lut/entity/MyFrameONE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/work/lut/entity/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/work/lut/entity/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/work/lut/ui/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/work/lut/ui/Test.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Vaixi8AqVxv2jjvUsDn73t43Gw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15429688" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="JAR Application.Painter.jar">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="home.work.lut.ui.Test" />
+      <module name="Painter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="home.work.lut.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Painter.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/Painter_jar/Painter.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.Painter.jar" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="057c652f-036a-485a-bfc8-7b7c175d5b58" name="Default Changelist" comment="" />
+      <created>1577497854555</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577497854555</updated>
+      <workItem from="1577497858976" duration="1656000" />
+      <workItem from="1587616236971" duration="545000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587616672011">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1587616672011" />
+    <state x="499" y="208" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587616471334">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="208" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1587616471334" />
+    <state width="1493" height="214" key="GridCell.Tab.0.bottom" timestamp="1587616711598">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1587616711598" />
+    <state width="1493" height="214" key="GridCell.Tab.0.center" timestamp="1587616711597">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1587616711597" />
+    <state width="1493" height="214" key="GridCell.Tab.0.left" timestamp="1587616711597">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1587616711597" />
+    <state width="1493" height="214" key="GridCell.Tab.0.right" timestamp="1587616711598">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1587616711598" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1587616531680">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1587616531680" />
+  </component>
+</project>

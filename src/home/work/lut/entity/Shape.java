@@ -7,6 +7,7 @@ import java.io.Serializable;
 
 public abstract class Shape extends Polygon implements Serializable {
     private static final long serialVersionUID = 1L;
+    public static double mianji;
     public int x1, y1, x2, y2;
     public Color color;
     public int width;
@@ -20,11 +21,8 @@ public abstract class Shape extends Polygon implements Serializable {
     public String s;
     public int blodtype;
     public int italic;
-
-    public abstract void draw(Graphics2D g);
-
     public Polygon p;
 
-    public static double mianji;
+    public abstract void draw(Graphics2D g);
 
 }

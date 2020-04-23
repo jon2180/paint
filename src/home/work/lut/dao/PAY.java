@@ -9,10 +9,10 @@ import java.awt.event.WindowEvent;
 
 public class PAY extends JDialog implements ActionListener {
     private static final long serialVersionUID = 1L;
-    private JPanel jPanel;
     public static JButton cancel;
     public static JButton ok;
     public static JLabel pr;
+    private JPanel jPanel;
 
     public PAY() {
         jPanel = new JPanel();

@@ -9,18 +9,18 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Test extends JDialog implements ActionListener {
-    public static MyFrame frame;
-    private static MyFrameONE frameOne;
     private static final long serialVersionUID = 1L;
-    private JPanel jPanel;
+    public static MyFrame frame;
     public static JTextField jTextField;
     public static JLabel labelA, labelPwd;
     public static JPasswordField inputPwd;
     public static JButton ok, cancal;
     public static int isok = 0;
     public static String name, pwd;
+    private static MyFrameONE frameOne;
     private static String[] names = {"gm", "zj"};
     private static String[] pwds = {"123", "456"};
+    private JPanel jPanel;
 
     public Test() {
         jPanel = new JPanel();
@@ -72,6 +72,10 @@ public class Test extends JDialog implements ActionListener {
 
     }
 
+    public static void main(String[] args) {
+        new Test();
+    }
+
     @Override
     public void actionPerformed(ActionEvent e) {
         Object object = e.getSource();
@@ -100,7 +104,7 @@ public class Test extends JDialog implements ActionListener {
         boolean f = false;
         String a = jTextField.getText().trim();
         try {
-            if (a != null && a.length() > 0) {
+            if (a.length() > 0) {
                 f = true;
                 name = a;
             } else {
@@ -119,7 +123,7 @@ public class Test extends JDialog implements ActionListener {
         boolean f = false;
         String a = new String((inputPwd.getPassword()));
         try {
-            if (a != null && a.length() > 0) {
+            if (a.length() > 0) {
                 f = true;
                 pwd = a;
             } else {
@@ -132,9 +136,5 @@ public class Test extends JDialog implements ActionListener {
             JOptionPane.showMessageDialog(this, "请输入正确的密码");
         }
         return f;
-    }
-
-    public static void main(String[] args) {
-        new Test();
     }
 }

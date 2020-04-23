@@ -14,9 +14,9 @@ import java.awt.print.PrinterJob;
 public class ColorPanel extends JPanel {
 
     public static final long serialVersionUID = 1L;
-    private JPanel paneldownchild;
     public static JButton bt;
     public static JButton bt1;
+    private JPanel paneldownchild;
     private BevelBorder bb;
     private BevelBorder bb1;
     private JPanel left;
@@ -52,6 +52,12 @@ public class ColorPanel extends JPanel {
 
     public ColorPanel() {
         addColorPanel();
+    }
+
+    public static void chooseColor() {
+        MyFrame.color = JColorChooser.showDialog(null, "请选择颜色", MyFrame.color);
+        ColorPanel.bt.setBackground(MyFrame.color);
+        MyFrame.itemList[MyFrame.index].color = MyFrame.color;
     }
 
     public void addColorPanel() {
@@ -155,12 +161,5 @@ public class ColorPanel extends JPanel {
                 MyFrame.itemList[MyFrame.index].color = c;
             }
         });
-    }
-
-
-    public static void chooseColor() {
-        MyFrame.color = JColorChooser.showDialog(null, "请选择颜色", MyFrame.color);
-        ColorPanel.bt.setBackground(MyFrame.color);
-        MyFrame.itemList[MyFrame.index].color = MyFrame.color;
     }
 }

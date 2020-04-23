@@ -1,8 +1,8 @@
 package home.work.lut.entity;
 
 
-import home.work.lut.biz.*;
 import home.work.lut.biz.Rectangle;
+import home.work.lut.biz.*;
 import home.work.lut.dao.ColorPanel;
 
 import javax.imageio.ImageIO;
@@ -18,23 +18,23 @@ public class MyFrameONE extends JFrame {
     private static final long serialVersionUID = 1L;
     public static int saved = 0;
     public static Color c = Color.black;
-    public Graphics2D g;
-    public int lengthCount;
     public static String fontName = new String(" 宋体 ");
-    private static int fSize = 16;
-    private static int blodtype = Font.PLAIN;
-    private static int italic = Font.PLAIN;
     public static int index = 0;
     public static Shape[] itemList = new Shape[5000];
-    private DrawPanel drawingArea;
-    private JLabel statusBar;
     public static int stroke = 1;
     public static Color color = Color.black;
     public static int currentChoice = 3;
+    private static int fSize = 16;
+    private static int blodtype = Font.PLAIN;
+    private static int italic = Font.PLAIN;
+    public Graphics2D g;
+    public int lengthCount;
     MyMenu menu;
     MyToolbar myToolbar;
     ColorPanel colorPanel;
     int length;
+    private DrawPanel drawingArea;
+    private JLabel statusBar;
 
     public MyFrameONE(String s) {
         init(s);

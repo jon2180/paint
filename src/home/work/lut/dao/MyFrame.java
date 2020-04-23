@@ -19,33 +19,28 @@ public class MyFrame extends JFrame {
     public static final long serialVersionUID = 1L;
     public static int saved = 0;
     public static Color c = Color.black;
-    public Graphics2D g;
-    public int lengthCount;
     public static String fontName = new String(" 宋体 ");
     public static int fSize = 16;
     public static int blodtype = Font.PLAIN;
     public static int italic = Font.PLAIN;
-
     public static int index = 0;
     public static home.work.lut.entity.Shape[] itemList = new home.work.lut.entity.Shape[5000];
-
-    Polygon polygon = new Polygon();
-
     public static int stroke = 1;
     public static Color color = Color.black;
     public static int currentChoice = 3;
     public static MyMenu menu;
+    public static DrawPanel drawingArea;
+    public static home.work.lut.entity.Shape shape1;
+    public Graphics2D g;
+    public int lengthCount;
+    public JLabel statusBar;
+    public JLabel Area;
+    public Polygon p;
+    Polygon polygon = new Polygon();
     MyToolbar myToolbar;
     ColorPanel colorPanel;
     int length;
-
-    public static DrawPanel drawingArea;
-    public JLabel statusBar;
-    public JLabel Area;
-
-    public Polygon p;
     ImageIcon icon = new ImageIcon("");
-    public static home.work.lut.entity.Shape shape1;
 
     public MyFrame() {
     }
